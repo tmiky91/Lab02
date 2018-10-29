@@ -10,7 +10,7 @@ import javafx.scene.control.TextField;
 
 public class AlienController {
 	
-	AlienDictionary dizionario;
+	
 
     @FXML
     private ResourceBundle resources;
