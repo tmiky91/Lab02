@@ -39,7 +39,8 @@ public class AlienController {
     void doTranslate(ActionEvent event) {
     	String risultato[];
     	risultato = txtWord.getText().split(" ");
-    	if(risultato.length==1) {
+    	
+		if(risultato.length==1) {
     		txtResult.setText(dizionario.translateWord(risultato[0]));
     	}
     	if(risultato.length==2) {
